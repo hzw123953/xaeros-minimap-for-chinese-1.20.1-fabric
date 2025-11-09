@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "com.hwn.xaerosminimapforchinese.mixin.client",
+	"compatibilityLevel": "JAVA_17",
+	"client": [
+		"ExampleClientMixin",
+		"TextRendererClientMixin",
+		"ScreenClientMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

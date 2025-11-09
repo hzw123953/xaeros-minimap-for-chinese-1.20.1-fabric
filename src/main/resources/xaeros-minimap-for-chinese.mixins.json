@@ -1,0 +1,16 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "com.hwn.xaerosminimapforchinese.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"refmap": "xaeros-minimap-for-chinese.refmap.json",
+	"mixins": [
+	],
+	"client": [
+		"client.TextRendererClientMixin",
+		"client.ScreenClientMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
